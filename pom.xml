@@ -53,7 +53,7 @@
     <repositories>
         <repository>
             <id>my-snapshots</id>
-            <url>http://54.165.227.135:8080/repository6/maven-snapshots/</url>
+            <url>https://54.165.227.135:8080/repository6/maven-snapshots/</url>
             <releases>
                 <enabled>false</enabled>
             </releases>
