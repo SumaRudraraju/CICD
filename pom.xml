@@ -53,7 +53,7 @@
     <repositories>
         <repository>
             <id>my-snapshots</id>
-            <url>https://repo.maven.apache.org/maven2/repository6/maven-snapshots/</url>
+            <url>https://repo.maven.apache.org/maven2/</url>
             <releases>
                 <enabled>false</enabled>
             </releases>
