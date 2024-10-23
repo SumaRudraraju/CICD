@@ -49,7 +49,28 @@
             <version>4.1.7</version>
         </dependency>
     </dependencies>
-    
+    <repositories>
+        <repository>
+            <id>my-snapshots</id>
+            <url>http://localhost:8082/repository/maven-snapshots/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+        </repository>
+<!--         <repository>
+            <id>custom-repo</id>
+            <url>http://custom-repo-url/repository/maven/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </repository> -->
+    </repositories>
     
     
     <build>
