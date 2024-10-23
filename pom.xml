@@ -60,16 +60,16 @@
                 <enabled>false</enabled>
             </releases>
         </repository>
-<!--         <repository>
+       <repository>
             <id>custom-repo</id>
-            <url>http://custom-repo-url/repository/maven/</url>
+            <url>http://localhost:8082/repository/maven-snapshots/</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
             <releases>
                 <enabled>true</enabled>
             </releases>
-        </repository> -->
+        </repository> 
     </repositories>
     
     
